@@ -2,22 +2,43 @@
 Aanalysis of the sales by using SQL
 
 
-The Sales Analysis Final Project at Seattle University focuses on analyzing data from the AdventureWorks2012DW database. The objective is to provide valuable insights for the financial analyst team and executive group. The project comprises five key objectives:
+Project Overview:
 
-Internet Sales Analysis: Prepare a detailed list of internet sales, including Category, Model, CustomerKey, Region, IncomeGroup, CalendarYear, FiscalYear, Month, OrderNumber, Quantity, and Amount, with customers categorized into "Low," "Moderate," or "High" income groups.
+The "Superstore Sales SQL Data Analysis" project aims to explore the Superstore Sales Data available on Kaggle and uncover insights into the store's sales and profits trends from 2014 to 2017. The project utilized SQL for data analysis and decision-making.
 
-Reseller Sales Analysis: Similar to the internet sales analysis, provide a breakdown of reseller sales by Category, Model, CalendarYear, FiscalYear, Month, OrderNumber, Quantity, and Amount.
+Data Cleaning and Preprocessing:
 
-Total Sales by Year and Territory: Display the total sales rolled up by year for each Territory group and country. The United Kingdom's totals must be shown separately from Europe.
+Before conducting the analysis, the data underwent a thorough cleaning and preprocessing process to ensure accuracy and reliability.
 
-Sales Performance by Promotion: Analyze how different types of promotions impact sales (quantity and revenue) by product category or region, comparing Internet and Reseller sales.
+Profit Trends Visualization:
 
-Customer Analysis: Join the Customer table with Internet sales data to provide insights into customer demographics and behavior.
+The project visualized profit trends based on various factors, including states, regions, categories, sub-categories, and timelines (years or quarters). This allowed for a comprehensive understanding of the store's performance across different dimensions.
 
-To present the results effectively, there are two distinct documents:
+Top and Bottom Performers Identification:
 
-Technical Report: This Word document contains the findings for each objective, along with SQL queries and an explanation of the approach taken for each analysis.
+The analysis identified the top-performing and least-performing products to highlight areas of success and improvement opportunities. Additionally, the most profitable customers were identified, providing valuable insights into customer segments.
 
-Executive Memo: A concise one-page Word document that summarizes the approach and key conclusions, catering to the executive group.
+Tableau Interactive Dashboard:
 
-Both documents aim to be clear, comprehensive, and reproducible, providing valuable insights to aid decision-making and strategic planning.
+The results of the analysis were showcased through an interactive Tableau dashboard. Two versions of the dashboard were created, one with a yearly focus and the other with a quarterly focus, offering dynamic visualizations for deeper exploration.
+
+Insights and Decision-Making:
+
+The project's findings revealed valuable insights into the Superstore's sales and profits performance, helping stakeholders make data-driven decisions. Areas for improvement and strategies for enhancing profitability were highlighted through the analysis.
+
+Importance of SQL in Data Analysis:
+
+The project demonstrated the significance of SQL in data analysis, showcasing its effectiveness in handling and analyzing large datasets for meaningful conclusions.
+
+Medium Article:
+
+For a comprehensive understanding of the project's methodology and detailed analysis, a Medium article is provided. The article includes in-depth explanations, visualizations, and key takeaways from the Superstore Sales Data analysis.
+
+Conclusion:
+
+
+The Superstore Sales SQL Data Analysis project successfully examined sales and profit trends, identified top and bottom performers, and presented the results through interactive Tableau dashboards. It underscores the role of SQL in driving data analysis and decision-making processes and offers valuable insights for the Superstore's future growth and success.
+
+Link to Medium Article:
+
+To read the full Medium article and explore the detailed analysis, please visit the following link: Superstore Sales Analysis Medium Article
