@@ -42,3 +42,8 @@ The Superstore Sales SQL Data Analysis project successfully examined sales and p
 Link to Medium Article:
 
 To read the full Medium article and explore the detailed analysis, please visit the following link: Superstore Sales Analysis Medium Article
+
+# Output
+
+[Dashboard.pdf](https://github.com/user-attachments/files/15910767/Dashboard.pdf)
+
