@@ -45,5 +45,5 @@ To read the full Medium article and explore the detailed analysis, please visit 
 
 # Output
 
-[Dashboard.pdf](https://github.com/user-attachments/files/15910767/Dashboard.pdf)
+![Dashboard](https://github.com/Gtushar1408/sales_analysis_by_SQL/assets/131335932/53b54ce6-28c3-49b5-8cad-534e2b466549)
 
