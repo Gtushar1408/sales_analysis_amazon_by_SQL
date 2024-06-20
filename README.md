@@ -1,4 +1,4 @@
-# sales_analysis_amazon_by_SQL
+# sales_analysis_by_SQL
 Aanalysis of the sales by using SQL
 
 
