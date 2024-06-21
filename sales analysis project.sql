@@ -160,6 +160,27 @@ union all
 (SELECT category, SUM(sales) AS total_sales, SUM(profit) AS total_profit
 FROM superstore GROUP BY category)
 
+ 28. Find Premium Customers
+
+SELECT customer_id
+FROM orders
+GROUP BY customer_id
+HAVING COUNT(order_id) > (SELECT AVG(order_count)
+                          FROM (SELECT COUNT(order_id) AS order_count
+                                FROM orders
+                                GROUP BY customer_id) AS subquery);
+
+
+29. Find Product ID and Total Sales of the Highest Selling Products (by Number of Units Sold) in Each Category
+
+SELECT product_id, category, total_units_sold
+FROM (
+    SELECT product_id, category, SUM(quantity) AS total_units_sold,
+           RANK() OVER (PARTITION BY category ORDER BY SUM(quantity) DESC) AS rank
+    FROM orders
+    GROUP BY product_id, category
+) AS ranked_sales
+WHERE rank = 1;
 
 
 
